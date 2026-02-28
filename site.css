@@ -1,0 +1,133 @@
+/* --- Alap testreszabás --- */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5b9fa19c; /* enyhén szürke háttér */
+    color: #f5f5dc; /* piszkos fehér / krém szín */
+}
+
+/* --- Header --- */
+header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Navigáció linkek */
+nav a {
+    color: #333333;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0d6efd; /* professzionális kék */
+}
+
+/* --- Main / Tartalom --- */
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* --- Kártyák / Dobozok --- */
+.card, .custom-box {
+    background-color: #ffffff; /* világos doboz */
+    border: 1px solid #ccc; /* keret */
+    border-radius: 20px; /* lekerekített sarkok */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* dekoratív árnyék */
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover, .custom-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
+/* --- Címek --- */
+h1, h2, h3 {
+    color: #222;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* --- Sorok / két oszlopos layout --- */
+.custom-row {
+    margin-bottom: 15px;
+}
+
+.custom-col-left {
+    max-width: 150px; /* fix szélesség */
+}
+
+.custom-col-right {
+    flex: 1; /* maradék hely */
+}
+
+/* --- Dobozok stílusa a sorokhoz --- */
+.custom-box {
+    border-left: 2px solid #888; /* bal keret */
+    border-bottom: 2px solid #888; /* alsó keret */
+    border-radius: 0 0 10px 0; /* csak találkozásnál radius */
+    background-color: #ffffff;
+    color: #222; /* sötét szöveg, jó kontraszt */
+}
+
+/* --- Gombok --- */
+button, .btn {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #0b5ed7;
+    transform: scale(1.03);
+}
+
+/* --- Profil szekció --- */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-section img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 2px solid #0d6efd;
+}
