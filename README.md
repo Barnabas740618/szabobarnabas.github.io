@@ -1,53 +1,52 @@
-CV numérique – Barnabás Szabó
+# CV numérique – Szabó Barnabás
 
-Ce dépôt contient mon CV numérique personnel, accessible à l'adresse https://szabobarnabas.fr.
+Ce dépôt contient mon CV numérique, accessible à l’adresse **https://szabobarnabas.fr**.  
+Le site est statique, rapide et sécurisé, conçu pour présenter mon parcours, mes compétences et mes projets dans un format clair et durable.
 
-L'objectif est de créer une page de présentation multilingue, statique, rapide et sécurisée, reflétant mon domaine d'expertise : systèmes autonomes, architectures réseau et protection des données.
+---
 
-Technologies et principes architecturaux
+## Technologies et principes utilisés
 
-• GitHub Pages – hébergement statique sur mon propre nom de domaine
+- **GitHub Pages** – hébergement statique avec domaine personnalisé  
+- **HTTPS + DNS** – enregistrements A, CNAME, gestion automatique du certificat  
+- **HTML + CSS minimalistes** – structure légère, sans framework  
+- **Multilingue** – versions française, anglaise et hongroise  
+- **Design simple et maintenable** – chargement rapide, lisibilité optimale  
 
-• Configuration HTTPS + DNS – Enregistrements A, CNAME, gestion des certificats
+---
 
-• HTML + CSS purs – structure sans framework, rapide et transparente
+## Ce que ce projet démontre
 
-• Structure multilingue – pages séparées en hongrois et en anglais
+- Gestion complète d’une infrastructure web (DNS, domaine, HTTPS, déploiement).  
+- Compréhension des architectures statiques et de leurs contraintes.  
+- Approche orientée confidentialité, stabilité et autonomie.  
+- Préférence pour des solutions robustes, simples et durables.  
+- Expérience en systèmes distribués : messagerie décentralisée, réseaux superposés, conception résiliente.
 
-• Design minimaliste et maintenable – interface simple et rapide
+---
 
-Que révèle ce projet sur moi ?
+## Structure du dépôt
 
-• Je gère l'intégralité de l'infrastructure web (DNS, nom de domaine, HTTPS, hébergement) de manière autonome.
+- `index.html` – page principale  
+- `GBIndex.html` – version anglaise  
+- `hunIndex.html` – version hongroise  
+- `site.css` – feuille de style  
+- `files/` – documents téléchargeables  
+- `kepek/` – images  
+- `CNAME` – configuration du domaine personnalisé  
 
-• Je comprends parfaitement le fonctionnement et les limites des sites statiques.
+---
 
-• La sécurité, la protection des données et la stabilité du fonctionnement sont essentielles pour moi.
+## Contact
 
-• J'apprécie les solutions minimalistes et transparentes.
+**Szabó Barnabás**  
+Montreuil‑sur‑Ille, Bretagne, France  
+Site : https://szabobarnabas.fr  
+GitHub : https://github.com/Barnabas740618
 
-• J'ai une approche systémique : la page CV est modulaire et facilement extensible.
+---
 
-Contenu
+## Licence
 
-• – Page d'accueil
-• – Version hongroise
-• – Version anglaise
-• – Feuille de style
-• – Documents et pièces jointes téléchargeables
-• – Images et illustrations
-• – Configuration du domaine
-
-Contact
-Barnabás Szabó
-Montreuil-sur-Ille, Bretagne, France
-
-Courriel : (vous pouvez nous écrire ici si vous le souhaitez)
-
-Site web : https://szabobarnabas.fr
-GitHub : https://github.com/Barnabas740618
-
-Licence
-Ce contenu est destiné à un usage personnel.
-
-Le code source est librement accessible, mais sa réutilisation nécessite une autorisation.
+Le contenu est destiné à la présentation personnelle.  
+Toute réutilisation nécessite une autorisation préalable.
