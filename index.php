@@ -1,0 +1,154 @@
+<?php
+// index.php – Portfolio (FR)
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Szabó Barnabas">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szabó Barnabas – Développeur Backend</title>
+
+    <meta name="description" content="Développeur backend spécialisé en ASP.NET Core, C# et PHP. Projets réels en production, architectures fiables et maintenables.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<header>
+    <div class="container py-3">
+        <h1>Szabó Barnabas</h1>
+        <p class="mb-2"><strong>Développeur Backend – ASP.NET Core / C# / PHP</strong></p>
+        <nav>
+            <a href="#home">Accueil</a>
+            <a href="#projects">Projets</a>
+            <a href="#skills">Compétences</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="language-switch mt-2">
+    <a href="index.php">FR</a> |
+    <a href="GBIndex.php">EN</a> |
+    <a href="hunIndex.php">HU</a>
+</div>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- PROFIL / HERO -->
+    <section id="home" class="profile-section mb-5 text-center">
+        <img src="kepek/Névtelen.jpg" alt="Photo de profil">
+        <h2>Profil</h2>
+        <p>
+            Développeur backend spécialisé en <strong>ASP.NET Core (C#)</strong> et <strong>PHP</strong>,
+            intervenant sur le développement d’applications <strong>web</strong> et d’applications <strong>desktop Windows</strong>,
+            dans des environnements métier et en production.
+        </p>
+        <p>
+            Approche pragmatique, orientée qualité, fiabilité et logique métier.
+        </p>
+        <a href="#contact" class="btn">Me contacter</a>
+        <a href="files/CV HTML Barnabas.html" target="_blank" class="btn btn-outline-primary">
+            Télécharger le CV (HTML)
+        </a>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="mb-5">
+        <h2>Compétences clés</h2>
+
+        <div class="row custom-row">
+            <div class="col-auto custom-col-left">
+                <strong>Backend</strong>
+            </div>
+            <div class="col custom-col-right">
+                <div class="custom-box">
+                    ASP.NET Core (C#), PHP, API REST, logique métier, sécurité
+                </div>
+            </div>
+        </div>
+
+        <div class="row custom-row">
+            <div class="col-auto custom-col-left">
+                <strong>Architecture</strong>
+            </div>
+            <div class="col custom-col-right">
+                <div class="custom-box">
+                    Architectures distribuées, synchronisation de données, systèmes maintenables
+                </div>
+            </div>
+        </div>
+
+        <div class="row custom-row">
+            <div class="col-auto custom-col-left">
+                <strong>Données</strong>
+            </div>
+            <div class="col custom-col-right">
+                <div class="custom-box">
+                    SQL Server, MySQL, modélisation et cohérence des données
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="mb-5">
+        <h2>Projets sélectionnés</h2>
+
+        <div class="card mb-3">
+            <h3>Ainew.fr</h3>
+            <p>
+                Plateforme de monnaie numérique décentralisée.
+            </p>
+            <p>
+                <strong>Technologies :</strong> ASP.NET Core (C#), base de données distribuée
+            </p>
+            <p>
+                Développement complet du backend et frontend, synchronisation des données par consensus.
+            </p>
+            <a href="https://ainew.fr" target="_blank">Voir le site</a>
+        </div>
+
+        <div class="card mb-3">
+            <h3>breizhvoiturediag.fr</h3>
+            <p>
+                Application web orientée services automobiles.
+            </p>
+            <p>
+                <strong>Technologies :</strong> PHP, SQL
+            </p>
+            <p>
+                Gestion de la logique métier et des données, application en production.
+            </p>
+            <a href="https://breizhvoiturediag.fr" target="_blank">Voir le site</a>
+        </div>
+
+        <p><em>
+            Certains projets ne sont pas publics pour des raisons de sécurité et de propriété intellectuelle.
+        </em></p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mb-5 text-center">
+        <h2>Contact</h2>
+        <p>📍 Aubigné (35250), France</p>
+        <p>📧 <a href="mailto:bsnewline@gmail.com">bsnewline@gmail.com</a></p>
+        <p>
+            🔗 <a href="https://github.com/Barnabas740618" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        &copy; 2026 Szabó Barnabas – Développeur Backend
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
